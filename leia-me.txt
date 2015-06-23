@@ -1,0 +1,27 @@
+Sistema simples de cadastro feito em C#, utilizando Visual Studio 2013 e banco de dados SQL Server 2012 para teste da empresa Super Controle.com
+
+/**
+*Autor Sidmar Porfírio
+*Data 23/06/2015
+*
+*Ressalvas
+*
+*A quantidade de números da sorte foram reduzidos para no máximo 3 por cliente
+*para simplificar o entendimento das classes
+*
+*Não utilizei nenhuma forma de validação de campos vazios ou quantidade de
+*caracteres do nome ou CPF
+*
+*Utilizei o banco instalado no meu localhost, para que o programa funcione *adequadamente será necessário criar um database com nome de db_clientes
+*contendo uma tabela tb_cliente com as entidades id(int primary key not null), 
+*nome(varchar(40) not null),
+*numero_1(int allow null),
+*numero_2(int allow null),
+*numero_3(int allow null),
+*
+*
+*
+*Caso ocorra algum problema com os anexos, os mesmo podem ser encontrados em
+*github.com/sidmar2015
+*
+*/
